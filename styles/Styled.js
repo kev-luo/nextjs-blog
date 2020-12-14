@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import {
   heading2Xl,
+  headingXl,
   borderCircle,
   headingLg,
   colorInherit,
@@ -9,6 +10,7 @@ import {
   padding1px,
   list,
   listItem,
+  lightText
 } from "./StyledUtils";
 
 // Home page
@@ -74,3 +76,12 @@ export const HeaderImg = styled.img`
 export const Back = styled.div`
   margin: 3rem 0 0;
 `;
+
+// Post page
+// ====================================================================
+export const PostTitle = styled.h1`
+  ${headingXl}
+`
+export const StyledDate = styled.div`
+  ${lightText}
+`
