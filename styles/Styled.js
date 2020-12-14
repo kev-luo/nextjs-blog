@@ -1,13 +1,41 @@
 import styled from "styled-components";
 
-import { heading2Xl, borderCircle, headingLg, colorInherit, headingMd } from "./StyledUtils";
+import {
+  heading2Xl,
+  borderCircle,
+  headingLg,
+  colorInherit,
+  headingMd,
+  padding1px,
+  list,
+  listItem,
+} from "./StyledUtils";
 
 // Home page
-export const StyledSection = styled.section`
+// ====================================================================
+export const HeroSection = styled.section`
   ${headingMd}
+`;
+
+export const PostsSection = styled.section`
+  ${headingMd}
+  ${padding1px}
+`;
+
+export const PostsTitle = styled.h2`
+  ${headingLg}
 `
 
+export const PostsList = styled.ul`
+  ${list}
+`;
+
+export const PostItem = styled.li`
+  ${listItem}
+`;
+
 // layout component
+// ====================================================================
 export const StyledLayout = styled.div`
   max-width: 36rem;
   padding: 0 1rem;
@@ -29,7 +57,7 @@ export const NonHomeHeader = styled.h2`
   a {
     ${colorInherit}
   }
-`
+`;
 
 export const HeaderHomeImg = styled.img`
   ${borderCircle}

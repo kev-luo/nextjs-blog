@@ -47,6 +47,8 @@ export const list = css`
 
 export const listItem = css`
   margin: 0 0 1.25rem;
+  display: flex;
+  flex-direction: column;
 `
 
 export const lightText = css`
