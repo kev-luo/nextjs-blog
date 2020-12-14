@@ -6,7 +6,7 @@ export default function FirstPost() {
     <>
       <h1>First Post</h1>
       <h2>
-        <Link href="/">Back</Link>
+        <Link href="/"><a>Back</a></Link>
       </h2>
     </>
   );
