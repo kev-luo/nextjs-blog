@@ -36,6 +36,10 @@ export const PostItem = styled.li`
   ${listItem}
 `;
 
+export const PostsDate = styled.small`
+  ${lightText}
+`
+
 // layout component
 // ====================================================================
 export const StyledLayout = styled.div`
