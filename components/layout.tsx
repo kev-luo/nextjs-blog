@@ -14,7 +14,10 @@ import {
 
 export const siteTitle = 'Next.js Blog'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home }: {
+  children: React.ReactNode
+  home?: boolean
+}) {
   return (
     <StyledLayout>
       <Head>
